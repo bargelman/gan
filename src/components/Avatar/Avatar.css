@@ -1,0 +1,43 @@
+.avatar {
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 500;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.light {
+    background-color: #eee;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: #eee;
+}
+
+.sm {
+    width: 24px;
+    height: 24px;
+    font-size: 8px;
+}
+
+.md {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.lg {
+    width: 48px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.avatar + .avatar {
+    margin-left: 8px;
+}
